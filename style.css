@@ -37,23 +37,85 @@ body{
 }
 
 .logo{
-     margin-left: 20px;
-     height: 50px;
+     height: 4px;
 }
 
+
 #header {
-     
      display: flex;
      justify-content: space-between;
      align-items: center;
+     background-color:#E3E6F3;
+     padding: 20px 80px 20px 80px;
+     position: sticky;
+     top: 0;
 }
 
 .navbar {
-     width: 400px;
      display: flex;
-     justify-content: space-between;
-     background-color: red;
+     justify-content: center;
+     align-items: center;
      list-style-type: none;
-     margin-right: 20px;
 
+}
+
+.navbar li{
+     padding: 0px 20px;
+}
+
+.navbar li a{
+     text-decoration: none;
+     color: black;
+     font-size: 16px;
+     font-weight: 600;
+     position: relative;
+}
+
+.navbar li a:hover{
+     color: purple;
+
+}
+
+.navbar li a:hover::after{
+     content: "";
+     width: 60%;
+     height: 2px;
+     background-color: purple;
+     position: absolute;
+     bottom: -4px;
+     left: 0px;
+
+}
+
+#hero{
+     background-image: url(/images/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg);
+     height: 90vh;
+     width: 100%;
+     padding: 0px 80px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+
+}
+
+#hero h4{
+     padding-bottom: 15px;
+}
+
+#hero h1{
+     color: purple;
+}
+
+#hero button {
+     background: url(/images/Screenshot\ 2025-01-13\ 161736.png);
+     color: purple;
+     cursor: pointer;
+     font-size: 15px;
+     font-weight: 900px;
+     border: 0;
+     padding: 20px 10px 20px 10px;
+     background-repeat: no-repeat;
+     /* background: red; */
+     background-position:center ;
 }
