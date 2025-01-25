@@ -37,7 +37,7 @@ body{
 }
 
 .logo{
-     height: 4px;
+     height: 60px;
 }
 
 
@@ -49,6 +49,7 @@ body{
      padding: 20px 80px 20px 80px;
      position: sticky;
      top: 0;
+     height: 70px;
 }
 
 .navbar {
@@ -79,7 +80,7 @@ body{
 .navbar li a:hover::after{
      content: "";
      width: 60%;
-     height: 2px;
+     height: 4px;
      background-color: purple;
      position: absolute;
      bottom: -4px;
@@ -88,7 +89,8 @@ body{
 }
 
 #hero{
-     background-image: url(/images/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg);
+     background-image: url(./images/Bella-Medspa-is-the-leading-provider-of-HydraFacial-in-Buckhead-and-Alpharetta.jpg);
+     background-size:cover;
      height: 90vh;
      width: 100%;
      padding: 0px 80px;
@@ -101,21 +103,34 @@ body{
 
 #hero h4{
      padding-bottom: 15px;
+     color: whitesmoke;
+     font-size: 30px;
+}
+
+#hero h2{
+     color: whitesmoke;
+     font-size: 100px;
 }
 
 #hero h1{
      color: purple;
 }
 
+#hero p {
+     color: whitesmoke;
+     font-size: 20px;
+}
+
 #hero button {
-     background: url(/images/Screenshot\ 2025-01-13\ 161736.png);
-     color: purple;
+     background: url(./images/pngtree-silk-fabric-satin-texture-background-picture-image_2390474.jpg);
+     color: whitesmoke;
      cursor: pointer;
      font-size: 15px;
      font-weight: 900px;
      border: 0;
-     padding: 20px 10px 20px 10px;
+     padding: 20px 50px 20px 50px;
      background-repeat: no-repeat;
-     /* background: red; */
-     background-position:center ;
+     background-position:cover;
+     border-radius: 7%;
+
 }
