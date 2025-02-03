@@ -54,6 +54,7 @@ body{
      position: sticky;
      top: 0;
      height: 70px;
+     z-index: 999;
 }
 
 .navbar {
@@ -175,9 +176,65 @@ body{
 }
 
 #product1{
-     align-items: center;
+     text-align: center;
 }
-.pro{
-     border: 2px solid black;
-     width: 300px;
+
+#product1 .pro{
+     width: 23%;
+     min-width: 250px;
+     padding: 10px 12px;
+     border-radius: 25px;
+     border: 1px solid #cce7d0;
+     cursor: pointer;
+     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+     margin: 15px 0;
+     transition: 0.2s ease;
+     position: relative;
+}
+
+#product1 .pro:hover{
+     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.8);
+}
+
+#product1 .pro img {
+     width: 100%;
+     border-radius: 20px;
+}
+
+#product1 .pro .des{
+     text-align: start;
+     padding: 10px 0;
+}
+
+#product1 .pro .des h5{
+     padding-top: 7px;
+     font-size: 14px;
+}
+
+#product1 .pro .des .star{
+     font-size: 25px;
+}
+
+#product1 .pro .des h4{
+     font-size: 20px;
+     padding-top: 7px;
+     color: rgb(34, 61, 6);
+     font-weight: 700;
+}
+
+#product1 .pro button{
+     position: absolute;
+     right: 10px;
+     bottom: 20px;
+     width: 30%;
+     background-color:rgb(34, 61, 6);
+     color: white;
+}
+
+#product1 .pro-container{
+     display: flex;
+     padding-top: 20px;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-between;
 }
