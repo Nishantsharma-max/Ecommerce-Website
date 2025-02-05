@@ -355,7 +355,8 @@ button.white{
      justify-content: center;
      align-items: flex-start;
      background-image: url(./images/banner3.avif);
-     min-width: 32%;
+     min-width: 350px;
+     width: 32%;
      height: 30vh;
      background-size: cover;
      background-position: center;
@@ -379,6 +380,7 @@ button.white{
      justify-content: space-between;
      flex-wrap: wrap;
 }
+     
 
 #banner3 .banner2{
      background-image: url(./images/banner4.jpeg);
@@ -387,4 +389,30 @@ button.white{
 #banner3 .banner3{
      background-image: url(./images/banner5.webp);
 
+}
+
+#newsletter{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     align-items: center;
+     background-color: #041e42;
+}
+
+#newsletter h4{
+     font-size: 22px;
+     color: #cce7d0;
+}
+
+#newsletter p{
+     font-size: 14px;
+     color: #cce7d0;
+}
+
+#newsletter p span{
+     color: yellow;
+}
+
+#newsletter input{
+     
 }
