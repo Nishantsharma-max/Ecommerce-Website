@@ -78,7 +78,7 @@ button.white{
      display: flex;
      justify-content: space-between;
      align-items: center;
-     background-color:#E3E6F3;
+     background-color:white;
      padding: 20px 80px 20px 80px;
      position: sticky;
      top: 0;
@@ -414,5 +414,74 @@ button.white{
 }
 
 #newsletter input{
+     height: 3.125rem;
+     padding: 0 1.25em;
+     font-size:14px ;
+     width: 100%;
+     border: 1px solid transparent;
+     border-radius: 4px;
+     outline: none;
+     border-top-right-radius: 0;
+     border-bottom-right-radius: 0;
      
+}
+
+#newsletter button{
+     height:3.125rem;
+     width:12em ;
+     border-top-left-radius: 0;
+     border-bottom-left-radius: 0;
+}
+
+#newsletter .form{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: nowrap;
+}
+
+footer{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+
+footer .col{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     margin-bottom: 20px;
+}
+
+footer .logo{
+     margin-bottom: 30px;
+}
+
+footer h4{
+     padding-bottom: 20px;
+}
+
+footer p{
+     margin:0 0 8px 0;
+}
+
+footer a{
+     margin:0 0 8px 0;
+     text-decoration: none;
+     color: black;
+     margin-bottom: 10px;
+}
+
+footer .follow a img {
+     cursor: pointer;
+
+}
+
+footer a:hover{
+     color: rgb(234, 7, 234);
+}
+
+footer .copyright{
+     width: 100%;
+     text-align: center;
 }
