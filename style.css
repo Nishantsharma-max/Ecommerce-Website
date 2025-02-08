@@ -201,6 +201,7 @@ button.white{
 }
 
 #feature .fe-box img{
+     width: 150px;
      width: 100%;
      margin-bottom: 10px;
 }
@@ -508,7 +509,7 @@ footer .copyright{
           top: 0;
           right: -300px;
           width: 300px;
-          height: 100vh;
+          height: 100%;
           background-color: wheat;
           padding: 80px 0px 0px 10px;
           transition: 0.3s;
@@ -530,4 +531,130 @@ footer .copyright{
           display: flex;
           cursor: pointer;
      }
+
+     #hero {
+          height: 70vh;
+          padding: 0 80px;
+          background-position: top 30% right 30%;
+      }
+
+      #feature {
+          justify-content: center;
+      }
+
+      #feature .fe-box {
+          margin: 15px 15px;
+      }
+
+      .section-p1 {
+          padding: 40px 40px;
+
+      }#product1 .pro-container {
+          justify-content: space-evenly;
+      }
+
+      #banner {
+          
+          height: 20vh;
+      }
+
+      #sm-banner .banner-box {
+          
+          min-width: 100%;
+          height: 30vh;
+         
+      }
+
+      #banner3 .banner-box {
+          
+          min-width: 200px;
+          width: 28%;
+
+      }
+
+      #banner3 h2 {
+          font-size: 26px;
+      }
+
+      #newsletter .form {
+          width: 100%;
+      }
+
+      #newsletter {
+          justify-content: center;
+      }
+     
+      .newstext{
+          text-align: center;
+      }
+
 }
+
+
+@media (max-width:477px) {
+     #header {
+          padding: 20px 20px;
+          height: 7vh;
+      }
+
+      #hero {
+          padding: 0px 20px;
+          background-position: 55%;
+      }
+
+      h2 {
+          font-size: 32px;
+      }
+     
+      h1 {
+          font-size: 38px;
+      }
+     
+      #feature .fe-box img{
+          width: 100px;
+      }
+      #feature .fe-box {
+          width: 130px;
+          margin: 0;
+      }
+      #feature{
+          justify-content: space-evenly;
+
+      }
+      .section-p1{
+          padding: 20px;
+      }
+      #product1 .pro {
+          width: 100%;
+          
+      }
+
+      #banner {
+          height: 40vh;
+      }
+      #banner h2 span {
+          font-size: 40px;
+      }
+
+      #sm-banner .banner-box {
+          height: 60vh;
+      }
+
+      #sm-banner .banner-box2 {
+          margin-top: 20px;
+      }
+
+      #banner3 .banner-box {
+          width: 100%;
+      }
+      footer {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+      }
+      .paymentmethod{
+          width: 250px;
+      }
+}
+
