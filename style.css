@@ -719,5 +719,65 @@ footer .copyright{
      padding: 0px;
 }
 
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* styling for singleproduct page */
 
+#prodetails{
+     padding-top: 0;
+     display: flex;
+}
 
+.single-pro-image{
+     width: 40%;
+     margin-right: 50;
+}
+
+.samll-img-group{
+     display: flex;
+     justify-content: space-between;
+     
+}
+
+/* 
+
+.prodec{
+     padding-left: 40px;
+     padding-top: 40px;
+}
+
+.prodec h4{
+     font-size: 30px;
+}
+
+.prodec h2{
+     padding-top: 20px;
+}
+
+.dropdown{
+     border: 1px solid black;
+     width: 115px;
+     padding: 10px 0;
+     text-align: center;
+
+}
+.dropdown select{
+     border: none;
+}
+
+.prodec button{
+     margin: 20px 0;
+     background-color: purple;
+     height: 40px;
+     width: 100px;
+     border-radius: 4px;
+     color: wheat;
+}
+
+.prodec p{
+     font-size: 1.5rem;
+}
+ */
