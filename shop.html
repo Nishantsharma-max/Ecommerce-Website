@@ -34,6 +34,17 @@
           <p>Summer Collection With New Modern Design </p>
           <div class="pro-container">
                <div class="pro">
+                    <img src="./images/pro5.png"  alt="img">
+                    <div class="des">
+                         <span>adidas</span>
+                         <h5>Cartoon Astornaut T-Shirts</h5>
+                         <div class="star"> ****</div>
+                         <h4>$79</h4>
+                    </div>
+                    <button>Cart</button>
+               </div>
+
+               <div class="pro">
                     <img src="./images/pro1.png"  alt="img">
                     <div class="des">
                          <span>adidas</span>
@@ -78,17 +89,6 @@
                </div>
                
                <div class="pro">
-                    <img src="./images/pro5.png"  alt="img">
-                    <div class="des">
-                         <span>adidas</span>
-                         <h5>Cartoon Astornaut T-Shirts</h5>
-                         <div class="star"> ****</div>
-                         <h4>$79</h4>
-                    </div>
-                    <button>Cart</button>
-               </div>
-               
-               <div class="pro">
                     <img src="./images/pro6.png"  alt="img">
                     <div class="des">
                          <span>adidas</span>
@@ -121,11 +121,11 @@
                     <button>Cart</button>
                </div>
                
-          </div>
+          </div>    
 
           <div class="pro-container">
                <div class="pro">
-                    <img src="./images/NA1.png"  alt="img">
+                    <img src="./images/N1.png"  alt="img">
                     <div class="des">
                          <span>adidas</span>
                          <h5>Cartoon Astornaut T-Shirts</h5>
@@ -136,7 +136,7 @@
                </div>
 
                <div class="pro">
-                    <img src="./images/NA2.png"  alt="img">
+                    <img src="./images/N2.png"  alt="img">
                     <div class="des">
                          <span>adidas</span>
                          <h5>Cartoon Astornaut T-Shirts</h5>
@@ -147,7 +147,7 @@
                </div>
                
                <div class="pro">
-                    <img src="./images/NA3.png"  alt="img">
+                    <img src="./images/N3.png"  alt="img">
                     <div class="des">
                          <span>adidas</span>
                          <h5>Cartoon Astornaut T-Shirts</h5>
@@ -158,7 +158,7 @@
                </div>
                
                <div class="pro">
-                    <img src="./images/NA4.png"  alt="img">
+                    <img src="./images/N4.png"  alt="img">
                     <div class="des">
                          <span>adidas</span>
                          <h5>Cartoon Astornaut T-Shirts</h5>
@@ -169,7 +169,7 @@
                </div>
                
                <div class="pro">
-                    <img src="./images/NA5.png"  alt="img">
+                    <img src="./images/N5.png"  alt="img">
                     <div class="des">
                          <span>adidas</span>
                          <h5>Cartoon Astornaut T-Shirts</h5>
@@ -180,7 +180,7 @@
                </div>
                
                <div class="pro">
-                    <img src="./images/NA6.png"  alt="img">
+                    <img src="./images/N6.png"  alt="img">
                     <div class="des">
                          <span>adidas</span>
                          <h5>Cartoon Astornaut T-Shirts</h5>
@@ -191,7 +191,7 @@
                </div>
                
                <div class="pro">
-                    <img src="./images/NA7.png"  alt="img">
+                    <img src="./images/N7.png"  alt="img">
                     <div class="des">
                          <span>adidas</span>
                          <h5>Cartoon Astornaut T-Shirts</h5>
@@ -202,7 +202,7 @@
                </div>
                
                <div class="pro">
-                    <img src="./images/NA8.png"  alt="img">
+                    <img src="./images/N8.png"  alt="img">
                     <div class="des">
                          <span>adidas</span>
                          <h5>Cartoon Astornaut T-Shirts</h5>
@@ -283,6 +283,20 @@
                <p>c 2025, nishant-max-MERN Developer</p>
           </div>
      </footer>
+     
+
+     <script>
+          let allImg=document.querySelectorAll(".pro")
+          allImg.forEach((el)=>{
+               el.addEventListener("click",(event)=>{
+                    if(event.target.nodeName=="IMG"){
+                         location.href="sproduct.html"
+                    }
+               })
+          })
+     </script>
+
+     
 
 
      <script src="./script.js"></script>

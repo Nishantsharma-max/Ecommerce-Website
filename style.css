@@ -79,7 +79,7 @@ button.white{
      justify-content: space-between;
      align-items: center;
      background-color:wheat;
-     padding: 20px 80px 20px 80px;
+     padding: 5px 80px 5px 80px;
      position: sticky;
      top: 0;
      z-index: 999;
@@ -729,55 +729,87 @@ footer .copyright{
 #prodetails{
      padding-top: 0;
      display: flex;
+     margin-top: 20px;
 }
 
 .single-pro-image{
      width: 40%;
-     margin-right: 50;
+     margin-right: 50px;
 }
 
 .samll-img-group{
      display: flex;
      justify-content: space-between;
-     
 }
 
-/* 
+.samll-img-group img{
+     cursor: pointer;
+
+}
+
+
+
+
 
 .prodec{
-     padding-left: 40px;
-     padding-top: 40px;
+     width: 50%;
+     padding-top: 30px;
 }
 
+.prodec h6{
+     padding-bottom: 30px;
+}
 .prodec h4{
-     font-size: 30px;
+     font-size: 26px;
+}
+.prodec select{
+     display: block;
+     padding: 5px 10px;
+     margin-bottom: 10px;
+}
+
+.prodec input{
+     width: 50px;
+     height: 40px;
+     padding-left: 10px;
+     margin-right: 10px;
+     font-size: 20px;
+     font-weight: 500;
+     outline: none;
+
 }
 
 .prodec h2{
      padding-top: 20px;
 }
 
-.dropdown{
-     border: 1px solid black;
-     width: 115px;
-     padding: 10px 0;
-     text-align: center;
-
-}
-.dropdown select{
-     border: none;
-}
-
-.prodec button{
-     margin: 20px 0;
-     background-color: purple;
-     height: 40px;
-     width: 100px;
-     border-radius: 4px;
-     color: wheat;
-}
 
 .prodec p{
      font-size: 1.5rem;
+     line-height: 25px;
+     font-weight: lighter;
 }
- */
+
+.prodec h4{
+     padding-top: 20px;
+}
+
+
+@media (max-width:477px) {
+     #prodetails {
+          flex-direction:column ;
+      }
+      .single-pro-image {
+          width: 100%;
+          margin-right: 0px;
+      }
+      .prodec {
+          width: 100%;
+      }
+      .prodec p {
+          font-size: 1rem;
+          line-height: 22px;
+          text-align: center;
+      }
+}
+

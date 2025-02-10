@@ -27,32 +27,83 @@
      <section id="prodetails" class="section-p1">
 
           <div class="single-pro-image">
-               <img src="./images/pro1.png" width="100%" id="MainImg" alt="image">
+               <img src="./images/n1.png"  width="100%" id="MainImg" alt="image">
                <div class="samll-img-group">
-                    <img src="./images/NA2.png" alt="">
-                    <img src="./images/NA3.png" alt="">
-                    <img src="./images/NA4.png" alt="">
-                    <img src="./images/NA5.png" alt="">
+                    <img width="24.5%" class="img1" alt="">
+                    <img width="24.5%" src="./images/pro6.png" alt="">
+                    <img width="24.5%" src="./images/pro7.png" alt="">
+                    <img width="24.5%" src="./images/pro8.png" alt="">
                </div>
           </div>
 
-
-
           <div class="prodec">
+               <h6>Home / T-Shirt</h6>
                <h4>Men's Fashion T Shirt</h4>
                <h2>$139.oo</h2>
-               <div class="dropdown">
-                    select size
-                    <select>
-                         <option>36</option>
-                         <option>38</option>
-                         <option>40</option>
-                    </select>
-               </div>
-               <button>Add To Cart</button>
+               <select>
+                    <option>select size</option>
+                    <option>XS</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+               </select>
+               <input type="number" value="1">
+               <button class="normal">Add To Cart</button>
                <h4>Product Details</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magni cupiditate eveniet fugit veritatis tempore obcaecati velit libero earum Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatem sapiente sed id voluptate voluptatum provident reiciendis deserunt, illo unde nam, corrupti optio facere veniam fugiat quas velit adipisci temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum pariatur voluptates sint omnis mollitia saepe, odio quibusdam, aperiam voluptatem ut officiis. Ab ipsum delectus vero assumenda explicabo, cumque aspernatur commodi placeat excepturi odio dolores aut ipsa odit mollitia quia laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio incidunt modi ea omnis porro corporis ad neque quasi exercitationem minima, odit repellendus quo assumenda aliquam? Vel officiis tempore quam itaque. Atque dolorem molestiae, dolores officia natus tempora vel est perferendis soluta ratione. Doloribus dolorem reprehenderit quas quae voluptatem libero sit? </p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magni cupiditate eveniet fugit veritatis tempore obcaecati velit libero earum Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatem sapiente sed id voluptate voluptatum provident reiciendis deserunt, illo unde nam, corrupti optio facere veniam fugiat quas velit adipisci temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum pariatur vol </p>
 
+          </div>
+     </section>
+
+     <section id="product1" class="section-p1">
+          <h2>Featured Products</h2>
+          <p>Summer Collection With New Modern Design </p>
+          <div class="pro-container">
+               <div class="pro">
+                    <img src="./images/pro1.png"  alt="img">
+                    <div class="des">
+                         <span>adidas</span>
+                         <h5>Cartoon Astornaut T-Shirts</h5>
+                         <div class="star"> ****</div>
+                         <h4>$79</h4>
+                    </div>
+                    <button>Cart</button>
+               </div>
+
+               <div class="pro">
+                    <img src="./images/pro2.png"  alt="img">
+                    <div class="des">
+                         <span>adidas</span>
+                         <h5>Cartoon Astornaut T-Shirts</h5>
+                         <div class="star"> ****</div>
+                         <h4>$79</h4>
+                    </div>
+                    <button>Cart</button>
+               </div>
+               
+               <div class="pro">
+                    <img src="./images/pro3.png"  alt="img">
+                    <div class="des">
+                         <span>adidas</span>
+                         <h5>Cartoon Astornaut T-Shirts</h5>
+                         <div class="star"> ****</div>
+                         <h4>$79</h4>
+                    </div>
+                    <button>Cart</button>
+               </div>
+               
+               <div class="pro">
+                    <img src="./images/pro4.png"  alt="img">
+                    <div class="des">
+                         <span>adidas</span>
+                         <h5>Cartoon Astornaut T-Shirts</h5>
+                         <div class="star"> ****</div>
+                         <h4>$79</h4>
+                    </div>
+                    <button>Cart</button>
+               </div>
           </div>
      </section>
 
@@ -118,6 +169,15 @@
                <p>c 2025, nishant-max-MERN Developer</p>
           </div>
      </footer>
+
+     <script>
+          img1=document.querySelector(".img1")
+          img1.setAttribute("src",MainImg.src)
+          const sproImg=document.querySelector(".samll-img-group")
+          sproImg.addEventListener("click",(event)=>{
+               MainImg.setAttribute("src",event.target.src)
+          })
+     </script>
 
 
      <script src="./script.js"></script>
