@@ -913,3 +913,33 @@ footer .copyright{
           padding: 100px 20px 0 20px;
       }
 }
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* styling for about page */
+
+
+#page-header.about-header{
+     background-image:url(./images/aboutbg.jpg);
+}
+#page-header.about-header h2{
+     color: rgba(251, 251, 7, 0.937);
+}
+#page-header.about-header p{
+     color: rgba(251, 251, 7, 0.937);
+}
+#about-head img{
+     width: 50%;
+     height: auto;
+}
+#about-head{
+     display: flex;
+     align-items: center;
+}
+#about-head div{
+     padding-left: 40px;
+}
