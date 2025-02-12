@@ -927,11 +927,9 @@ footer .copyright{
      background-image:url(./images/aboutbg.jpg);
 }
 #page-header.about-header h2{
-     color: rgba(251, 251, 7, 0.937);
-}
+     color:firebrick;}
 #page-header.about-header p{
-     color: rgba(251, 251, 7, 0.937);
-}
+     color:firebrick;}
 #about-head img{
      width: 50%;
      height: auto;
@@ -942,4 +940,59 @@ footer .copyright{
 }
 #about-head div{
      padding-left: 40px;
+}
+#about-app a{
+     color: purple;
+}
+#about-app{
+     text-align: center;
+}
+#about-app .video{
+     width: 70%;
+     height: 100%;
+     margin-top: 30px;
+     margin: 0px auto;
+
+}
+#about-app .video video{
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
+}
+
+@media (max-width:477px) {
+     #about-head {
+          flex-direction: column;
+      }
+      #about-head img {
+          width: 100%;
+      }
+      #about-head div {
+          padding-left: 0px;
+      }
+      p {
+          text-align:justify;
+      }
+      #about-app .video {
+          width: 100%;
+      }
+      #page-header.about-header h2 {
+          font-size: 50px;
+          
+      }
+      #page-header.about-header p {
+          font-size: 30px;
+      }
+}
+
+@media (max-width:800px) {
+     #about-head {
+          flex-direction: column;
+      }
+      #about-head img {
+          width: 100%;
+      }
+      #about-app .video {
+          width: 100%;
+      }
 }
