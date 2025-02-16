@@ -985,7 +985,7 @@ footer .copyright{
       }
 }
 
-@media (max-width:800px) {
+@media (max-width:799px) {
      #about-head {
           flex-direction: column;
       }
@@ -995,6 +995,7 @@ footer .copyright{
       #about-app .video {
           width: 100%;
       }
+
 }
 
 /*  */
@@ -1003,6 +1004,12 @@ footer .copyright{
 /*  */
 /*  */
 /* styling for contact page */
+#page-header.contact-header{
+     background-image: url(./images/contact\ banner.avif);
+}
+#page-header.contact-header p{
+     color: wheat;
+}
 #contact-deatils {
      display: flex;
      align-items: center;
@@ -1031,4 +1038,91 @@ footer .copyright{
 #contact-deatils .map iframe{
      width: 100%;
      height: 100%;
+}
+
+
+#form-details form{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     width: 65%;
+
+}
+
+#form-details form input,
+#form-details form textarea{
+     width: 100%;
+     padding: 12px 15px;
+     outline: none;
+     margin-bottom: 20px;
+     border: 1px solid purple;
+}
+#form-details{
+     display: flex;
+     margin: 30px;
+     border: 1px solid purple;
+}
+#form-details .people div{
+     display: flex;
+}
+#form-details .people{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     margin-left: 150px;
+
+}
+#form-details .people div p{
+     font-size: 20px;
+     line-height: 25px;
+     margin: 0;
+}
+
+
+@media (max-width:799px){
+     #page-header.contact-header{
+          background-position: center;
+     }
+     #contact-deatils .details h2{
+          font-size: 25px;
+          line-height: 30px;
+     }
+     
+     #page-header.contact-header h2 {
+          font-size: 40px;
+      }
+      #page-header.contact-header p {
+          font-size: 20px;
+      }
+      #form-details {
+          padding: 0;
+          flex-direction: column;
+          border: none;
+      }
+     
+      #form-details form {
+          width: 100%;
+      }
+      #form-details .people {
+          margin-left: 0px;
+      }
+      #form-details .people div{
+          padding: 20px 0;
+      }
+
+}
+
+@media (max-width:477px) {
+     #page-header.contact-header {
+          background-position:right;
+      }
+     #contact-deatils {
+          flex-direction: column;
+      }
+      #contact-deatils .details {
+          width: 100%;
+      }
+      #contact-deatils .map{
+          width: 100%;
+      }
 }
